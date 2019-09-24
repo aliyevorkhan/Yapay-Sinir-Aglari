@@ -1,0 +1,13 @@
+﻿  MyForm.cpp
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(497): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(541): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(542): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(678): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(679): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(682): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(683): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(703): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(706): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(550): warning C4700: uninitialized local variable 'noktaNumarasi' used
+  Matris.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  YSA_PROJE1.vcxproj -> C:\Users\Orkhan ALIYEV\Desktop\Yapay-Sinir-Aglari\YSA_PROJE1_COKLU_SINIF\x64\Debug\YSA_PROJE1.exe

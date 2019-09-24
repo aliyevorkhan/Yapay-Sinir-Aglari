@@ -1,0 +1,5 @@
+﻿  Matris.cpp
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje2_delta_coklu_sinif\ysa_proje2_delta_coklu_sinif\matris.cpp(221): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje2_delta_coklu_sinif\ysa_proje2_delta_coklu_sinif\matris.cpp(225): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Matris.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  YSA_PROJE2_DELTA_COKLU_SINIF.vcxproj -> C:\Users\Orkhan ALIYEV\Desktop\Yapay-Sinir-Aglari\YSA_PROJE2_DELTA_COKLU_SINIF\Debug\YSA_PROJE2_DELTA_COKLU_SINIF.exe
