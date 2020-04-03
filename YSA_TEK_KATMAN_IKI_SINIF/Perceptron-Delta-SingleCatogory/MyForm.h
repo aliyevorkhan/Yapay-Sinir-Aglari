@@ -77,6 +77,7 @@ namespace PerceptronDeltaSingleCatogory {
 	private: System::Windows::Forms::Label^  label1;
 	private: System::Windows::Forms::Button^  button1;
 	private: System::Windows::Forms::Label^  label2;
+	private: System::Windows::Forms::Label^  label3;
 	private:
 		/// <summary>
 		/// Required designer variable.
@@ -109,6 +110,7 @@ namespace PerceptronDeltaSingleCatogory {
 			this->tabControl1 = (gcnew System::Windows::Forms::TabControl());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->tekKatman->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->trackBar1))->BeginInit();
 			this->groupBox1->SuspendLayout();
@@ -120,6 +122,7 @@ namespace PerceptronDeltaSingleCatogory {
 			// 
 			this->tekKatman->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(34)), static_cast<System::Int32>(static_cast<System::Byte>(36)),
 				static_cast<System::Int32>(static_cast<System::Byte>(49)));
+			this->tekKatman->Controls->Add(this->label3);
 			this->tekKatman->Controls->Add(this->labelDonguSayisi);
 			this->tekKatman->Controls->Add(this->label1);
 			this->tekKatman->Controls->Add(this->trackBar1);
@@ -370,6 +373,16 @@ namespace PerceptronDeltaSingleCatogory {
 			this->label2->TabIndex = 2;
 			this->label2->Text = L"YAPAY SİNİR AĞLARI";
 			// 
+			// label3
+			// 
+			this->label3->AutoSize = true;
+			this->label3->ForeColor = System::Drawing::Color::White;
+			this->label3->Location = System::Drawing::Point(541, 46);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(41, 13);
+			this->label3->TabIndex = 23;
+			this->label3->Text = L"label3";
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -410,12 +423,14 @@ private: System::Void pictureBox1_MouseClick(System::Object^  sender, System::Wi
 	alinanOrnek[0] = e->X - (pictureBox1->Width / 2);
 	alinanOrnek[1] = ((pictureBox1->Height / 2) - e->Y);
 
+	label3->Text += alinanOrnek[0].ToString() + " ";
+	label3->Text += alinanOrnek[1].ToString();
+
 	if (radioButtonMaviSinif->Checked) {
 		kalem = gcnew Pen(Color::Blue, 2);
 		alinanOrnek[2] = SINIF_MAVI;
 		maviOrnekSayisi++;
 		labelMavi->Text = maviOrnekSayisi.ToString();
-
 	}
 	else if(radioButtonKirmiziSinif->Checked)
 	{
@@ -492,7 +507,7 @@ private: System::Void buttonUygula_Click(System::Object^  sender, System::EventA
 		agirliklar = new double[3];
 		agirliklar[0] = 0.5;
 		agirliklar[1] = 1.0;
-		agirliklar[2] = -1.0;
+		agirliklar[2] = 1.0;
 		pictureBox1->CreateGraphics()->Clear(Color::White);
 
 		if (checkBoxNormalizasyon->Checked) {

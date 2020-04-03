@@ -1,1 +1,9 @@
-﻿  Perceptron-Delta-SingleCatogory.vcxproj -> C:\Users\Orkhan ALIYEV\Desktop\YSA\YSA_TEK_KATMAN_IKI_SINIF\Debug\Perceptron-Delta-SingleCatogory.exe
+﻿  MyForm.cpp
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_iki_sinif\perceptron-delta-singlecatogory\myform.h(462): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_iki_sinif\perceptron-delta-singlecatogory\myform.h(463): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_iki_sinif\perceptron-delta-singlecatogory\myform.h(482): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_iki_sinif\perceptron-delta-singlecatogory\myform.h(491): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_iki_sinif\perceptron-delta-singlecatogory\myform.h(499): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  MyForm.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Perceptron-Delta-SingleCatogory.vcxproj -> C:\Users\Orkhan ALIYEV\Desktop\Yapay-Sinir-Aglari\YSA_TEK_KATMAN_IKI_SINIF\Debug\Perceptron-Delta-SingleCatogory.exe

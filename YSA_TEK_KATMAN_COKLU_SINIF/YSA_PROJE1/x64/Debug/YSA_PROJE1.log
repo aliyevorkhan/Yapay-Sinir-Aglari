@@ -1,13 +1,13 @@
 ﻿  MyForm.cpp
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(580): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(624): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(625): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(752): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(753): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(756): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(757): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(778): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(781): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_proje1_coklu_sinif\ysa_proje1\myform.h(633): warning C4700: uninitialized local variable 'noktaNumarasi' used
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(581): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(625): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(626): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(753): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(754): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(757): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(758): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(779): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(782): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\orkhan aliyev\desktop\yapay-sinir-aglari\ysa_tek_katman_coklu_sinif\ysa_proje1\myform.h(634): warning C4700: uninitialized local variable 'noktaNumarasi' used
   Matris.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  YSA_PROJE1.vcxproj -> C:\Users\Orkhan ALIYEV\Desktop\Yapay-Sinir-Aglari\YSA_PROJE1_COKLU_SINIF\x64\Debug\YSA_PROJE1.exe
+  YSA_PROJE1.vcxproj -> C:\Users\Orkhan ALIYEV\Desktop\Yapay-Sinir-Aglari\YSA_TEK_KATMAN_COKLU_SINIF\x64\Debug\YSA_PROJE1.exe

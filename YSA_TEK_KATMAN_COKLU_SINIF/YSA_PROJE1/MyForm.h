@@ -459,6 +459,7 @@ namespace YSAPROJE1 {
 			this->rtbAgirliklar->Size = System::Drawing::Size(355, 180);
 			this->rtbAgirliklar->TabIndex = 18;
 			this->rtbAgirliklar->Text = L"";
+			this->rtbAgirliklar->Visible = false;
 			// 
 			// button2
 			// 
